@@ -46,3 +46,9 @@ hr{
   border: 3px solid #001eld; 
   margin: 25px 25px 25px
 }
+div {
+  text-align: center;
+}
+div a{
+  text-decoration: none;
+}
