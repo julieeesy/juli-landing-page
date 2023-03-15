@@ -57,6 +57,12 @@ h2 {
   font-family: playfair display;
   font-weight: bold;
 }
+h3 {
+  text-align: center;
+  margin-top: 5px;
+  font-family: playfair display;
+  font-weight: bold;
+}
 hr {
   border: 1px solid #1E2D2F; 
   margin-left: 500px;
@@ -72,8 +78,8 @@ p.links a {
 }
 img {
   display: block;
-  margin-left: 500px;
-  margin-right: 500px;
+  margin-left: 460px;
+  margin-right: 460px;
   margin-top: 20px;
   margin-bottom: 20px;
   width: 25%;
@@ -87,7 +93,9 @@ img {
 }
 .bgc {
   background-color: #877E66;
-  padding: 20px;
-  height: 100vh;
-  padding-top: 225px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 50px;
 }
