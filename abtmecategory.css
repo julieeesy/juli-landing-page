@@ -5,6 +5,18 @@
 body {
   background-color: #F5F5DC;
 }
+div.logo {
+  font-size: 23px;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+}
+nav.navbar {
+  align-items: center;
+  padding: 20px;
+  background-color: #26292F;
+  color: #fff;
+}
 .categories {
   display: flex;
   justify-content: space-between;
@@ -15,5 +27,5 @@ body {
 }
 .categories a {
   text-decoration: none; /*removes the underline in <a> element */
-  font-family: playfair display;
+  font-family: arial;
 }

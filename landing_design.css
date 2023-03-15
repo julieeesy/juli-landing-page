@@ -5,6 +5,10 @@
 body {
   background-color: #F5F5DC;
 }
+html, body{
+  scroll-behavior: smooth;
+}
+
 div.logo {
   font-size: 23px;
   font-family: arial;
@@ -37,7 +41,7 @@ div.menu li a{
   padding-bottom: 5px; 
   padding-right: 14px;
   padding-left: 14px;
-  text-decoration: none; /*removes the underline in <a> element */
+  text-decoration: none;
 }
 li {
   list-style: none;
@@ -63,6 +67,9 @@ hr {
 p.links {
   text-align: center;
 }
+p.links a {
+  text-decoration: none;
+}
 img {
   display: block;
   margin-left: 500px;
@@ -74,4 +81,13 @@ img {
 .homepage {
   padding-top: 15px;
   text-align: center;
+}
+.homepage a {
+  text-decoration: none;
+}
+.bgc {
+  background-color: #877E66;
+  padding: 20px;
+  height: 100vh;
+  padding-top: 225px;
 }
