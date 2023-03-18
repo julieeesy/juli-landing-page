@@ -1,7 +1,6 @@
 body {
   padding: 50px;
   background-color: #F5F5DC;
-
 }
 h3 {
   font-family: Open sans; 
@@ -73,7 +72,16 @@ div {
 div a{
   text-decoration: none;
 }
-.link a {
+nav.navbar {
+  text-align: center;
+  background-color: #26292F;
+}
+div.link a {
+  padding: 1em;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  display: inline-block;
+  font-family: noto sans;
   text-decoration: none;
-  font-family: arial;
 }

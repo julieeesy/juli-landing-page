@@ -71,12 +71,12 @@ div.textbox p.name {
   font-family: noto sans;
   font-weight: bold;
 }
-div.textbox p.links {
+div.textbox div.links {
   text-align: center;
   font-family: noto sans;
   font-size: 20px;
 }
-div.textbox p.links a {
+div.textbox div.links a {
   text-decoration: none;
   font-family: noto sans;
 }
@@ -90,7 +90,21 @@ div.textbox hr {
 .textbox h2 {
   font-weight: lighter;
 }
-
+nav.clicks {
+  text-align: center;
+  background-color: #26292F;
+  margin-left: 425px;
+  border-radius: 5px;
+}
+div.links a {
+  padding: 1em;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  font-family: noto sans;
+  text-decoration: none;
+}
 /*------------------*/
 .other {
   text-align: center;
@@ -115,19 +129,19 @@ h3 {
   font-weight: bold;
 }
 .homepage {
-  padding-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
 }
 .homepage a {
   text-decoration: none;
   font-family: noto sans;
+  color: #fff;
 
 }
 .bgc {
   background-color: #877E66;
   padding-top: 25px;
   padding-bottom: 25px;
-  padding-left: 10px;
-  padding-right: 10px;
   margin: 50px;
 }
