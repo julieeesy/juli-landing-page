@@ -13,20 +13,30 @@ img:hover {
   opacity: 0.5;
 }
 .link a {
-  font-family: arial;
+  padding: 1em;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+  font-family: noto sans;
   text-decoration: none;
+}
+.navbar {
+  text-align: center;
+  background-color: #26292F;
 }
 body {
   background-color: #F5F5DC;
-  font-family: Georgia;
+  font-family: noto sans;
   margin-top: 50px;
   margin-bottom: 200px;
   margin-left: 50px;
   margin-right: 50px;
-  font-size: 18px;
+  font-size: 20px;
 }
 h4 {
   text-align: center;
+  font-weight: lighter;
 }
 h2 {
   text-align: center;

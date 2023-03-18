@@ -4,11 +4,12 @@
 }
 body {
   background-color: #F5F5DC;
+  font-size: 20px;
 }
 div.logo {
   font-size: 23px;
-  font-family: arial;
-  font-weight: bold;
+  font-family: noto sans;
+  font-weight: lighter;
   text-align: center;
 }
 nav.navbar {
@@ -17,15 +18,30 @@ nav.navbar {
   background-color: #26292F;
   color: #fff;
 }
+h2 {
+  text-align: center;
+  margin: 40px;
+  font-family: noto sans;
+  font-size: 30px;
+}
 .categories {
   display: flex;
   justify-content: space-between;
-  border: 3px solid;
-  padding: 300px 100px;
   text-align: center;
-  margin: 20px;
+  margin: 90px 60px;
 }
 .categories a {
   text-decoration: none; /*removes the underline in <a> element */
-  font-family: arial;
+  font-family: noto sans;
+  padding: 20px;
+  color: black;
+}
+.categories a:hover {
+  background-color: #A2A5AE;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+.categories img {
+  width: 90%;
+  margin: 10px;
 }

@@ -6,13 +6,14 @@ body {
   background-color: #F5F5DC;
 }
 html, body{
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /*scroll*/
 }
 
 div.logo {
   font-size: 23px;
-  font-family: arial;
+  font-family: noto sans;
   font-weight: bold;
+  margin-left: 20px;
 }
 nav.navbar {
   display: flex;
@@ -42,47 +43,76 @@ div.menu li a{
   padding-right: 14px;
   padding-left: 14px;
   text-decoration: none;
+  font-family: noto sans;
 }
 li {
   list-style: none;
 }
-h1 {
+/*------------------------------*/
+div.container {
+  justify-content: center;
+  align-items: center; 
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+div.container img {
+  max-width: 35%;
+  max-height: 20%;
+  float: left;
+  margin-right: 80px;
+}
+div.textbox {
+  font-size: 20px;
+}
+div.textbox p.name {
+  font-size: 60px;
+  font-family: noto sans;
+  font-weight: bold;
+}
+div.textbox p.links {
   text-align: center;
-  font-family: playfair display;
+  font-family: noto sans;
+  font-size: 20px;
+}
+div.textbox p.links a {
+  text-decoration: none;
+  font-family: noto sans;
+}
+div.textbox hr {
+  border: 1px solid #1E2D2F; 
+  margin-left: 30px;
+  margin-right: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.textbox h2 {
+  font-weight: lighter;
+}
+
+/*------------------*/
+.other {
+  text-align: center;
+}
+div.other img {
+  max-width: 30%;
+  max-height: 30%;
+}
+h1 {
+  font-family: noto sans;
   font-weight: bold;
 }
 h2 {
-  text-align: center;
   margin-top: 5px;
-  font-family: playfair display;
+  font-family: noto sans;
   font-weight: bold;
 }
 h3 {
   text-align: center;
   margin-top: 5px;
-  font-family: playfair display;
+  font-family: noto sans;
   font-weight: bold;
-}
-hr {
-  border: 1px solid #1E2D2F; 
-  margin-left: 500px;
-  margin-right: 500px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-p.links {
-  text-align: center;
-}
-p.links a {
-  text-decoration: none;
-}
-img {
-  display: block;
-  margin-left: 460px;
-  margin-right: 460px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 25%;
 }
 .homepage {
   padding-top: 15px;
@@ -90,6 +120,8 @@ img {
 }
 .homepage a {
   text-decoration: none;
+  font-family: noto sans;
+
 }
 .bgc {
   background-color: #877E66;
