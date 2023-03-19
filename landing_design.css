@@ -128,20 +128,30 @@ h3 {
   font-family: noto sans;
   font-weight: bold;
 }
-.homepage {
+.column_content {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
+  float: right;
+  padding-right: 100px;
 }
-.homepage a {
+.column_content a {
   text-decoration: none;
   font-family: noto sans;
   color: #fff;
-
+}
+.column_content li {
+  padding-top: 15px;
 }
 .bgc {
   background-color: #877E66;
   padding-top: 25px;
   padding-bottom: 25px;
   margin: 50px;
+  display: block;
+  justify-content: center;
+  border-radius: 5px;
+}
+.column_content h2 {
+  font-weight: lighter;
 }
