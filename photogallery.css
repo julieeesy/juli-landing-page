@@ -47,3 +47,6 @@ div {
 hr {
   margin: 20px;
 }
+div a {
+  text-decoration: none; /* removes ung guhit beside the <a> element ng img*/
+}
