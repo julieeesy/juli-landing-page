@@ -83,7 +83,7 @@ div.textbox div.links a {
 div.textbox hr {
   border: 1px solid #1E2D2F; 
   margin-left: 30px;
-  margin-right: 500px;
+  margin-right: 650px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -93,8 +93,10 @@ div.textbox hr {
 nav.clicks {
   text-align: center;
   background-color: #26292F;
-  margin-left: 425px;
+  margin-left: 535px;
+  margin-right: 150px;
   border-radius: 5px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
 }
 div.links a {
   padding: 1em;
@@ -143,14 +145,33 @@ h3 {
 .column_content li {
   padding-top: 15px;
 }
+.column_content3 h1 h2 h3 {
+  clear: right;
+} 
+.column_content3 h3 {
+  font-weight: lighter;
+  font-size: 22px;
+  text-align: justify;
+}
+.column_content3 a {
+  text-decoration: none;
+  font-family: noto sans;
+  color: #fff;
+  font-size: 18px ;
+}
+.bgc img {
+  float: left;
+  padding: 25px;
+}
 .bgc {
   background-color: #877E66;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 25px 50px;
   margin: 50px;
   display: block;
   justify-content: center;
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+  overflow: auto;
 }
 .column_content h2 {
   font-weight: lighter;

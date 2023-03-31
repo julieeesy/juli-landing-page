@@ -15,13 +15,13 @@ div.content {
   /*border: solid;*/
   /*align-items: center; align items vertically*/
   /*justify-content: center; align items horizontally*/
-  margin: 20px 420px;
+  margin: 30px 550px;
   background-color: #877E66;
   border-radius: 5px;
-  padding: 15px;
+  padding: 20px;
 }
 div.content img {
-  width: 90%;
+  width: 60%;
   display: grid;
   margin: auto; /*align items horizontally*/
 }
@@ -54,3 +54,4 @@ h3 {
 hr {
   margin: 20px;
 }
+  

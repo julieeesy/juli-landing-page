@@ -11,12 +11,18 @@ body {
   font-family: noto sans;
 }
 div.content {
-  display: flex;
-  align-items: center;
-  margin: 30px 420px;
+  display:  grid;
+  /*border: solid;*/
+  /*align-items: center; align items vertically*/
+  /*justify-content: center; align items horizontally*/
+  margin: 30px 550px;
+  background-color: #877E66;
+  border-radius: 5px;
+  padding: 20px;
 }
+
 div.content video {
-  border: solid;
+  margin: auto;
 }
 div.text {
   text-align: center;
