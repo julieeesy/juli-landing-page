@@ -2,12 +2,16 @@
   margin: 0;
   padding: 0;
 }
+html, body{
+  scroll-behavior: smooth; /*scroll*/
+}
 img {
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
   width: 25%;
+  display: inline-block;
 }
 img:hover {
   opacity: 0.5;
@@ -24,6 +28,9 @@ img:hover {
 .navbar {
   text-align: center;
   background-color: #26292F;
+  margin-left: 700px;
+  margin-right: 700px;
+  border-radius: 5px;
 }
 body {
   background-color: #F5F5DC;
@@ -42,11 +49,28 @@ h2 {
   text-align: center;
 }
 div {
-  align: justify;
+  align: center;
 }
 hr {
   margin: 20px;
 }
 div a {
   text-decoration: none; /* removes ung guhit beside the <a> element ng img*/
+}
+nav.clicks {
+  text-align: center;
+  background-color: #26292F;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+}
+div.links a {
+  padding: 1em;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+  font-family: noto sans;
+  text-decoration: none;
 }
