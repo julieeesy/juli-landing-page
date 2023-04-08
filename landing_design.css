@@ -159,6 +159,9 @@ h3 {
   color: #fff;
   font-size: 18px ;
 }
+.column_content3 h4 {
+  font-family: noto sans;
+}
 .bgc img {
   float: left;
   padding: 25px;

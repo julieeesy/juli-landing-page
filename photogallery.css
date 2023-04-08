@@ -60,8 +60,8 @@ div a {
 nav.clicks {
   text-align: center;
   background-color: #26292F;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
   border-radius: 5px;
   box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
 }
